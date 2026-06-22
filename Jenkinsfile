@@ -20,6 +20,7 @@ pipeline {
                 sh 'echo "All tests passed (simulated)"'
             }
         }
+        #Build
         stage('New Stage From Git') {
             steps {
                 echo 'This stage was added purely by editing GitHub - no Jenkins UI changes!'
